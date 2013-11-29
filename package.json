@@ -10,10 +10,10 @@
 		, "url": "git://github.com/fb55/readabilitysax.git"
 	},
     "dependencies": {
-        "htmlparser2": "3.0",
-        "minreq": "0.2",
-        "entities": "0",
-        "readable-stream": "1.0"
+        "htmlparser2": "~3.3",
+        "minreq": "~0.2",
+        "entities": "~0.3",
+        "readable-stream": "~1.1"
     },
     "bin" : {
         "readability" : "node/CLI.js"
