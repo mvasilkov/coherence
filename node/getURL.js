@@ -45,6 +45,7 @@ module.exports = function(uri, settings, cb){
 			cb(article);
 		});
 
+        req.setEncoding('utf8');
 		req.pipe(stream);
 	});
 };
